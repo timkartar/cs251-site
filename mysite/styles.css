@@ -1,0 +1,65 @@
+	/*<a href="acads.html" class="alink"> <div class="btn"> Academics </div></a>*/
+h1 {
+	color: black;
+}
+.myheader{
+	text-align: center;
+	margin-bottom: 0.5rem;
+	margin-top: 0.5rem;
+	color: #606c71;
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+   }
+.btnn {
+  text-align:center;
+  /*display: inline-block;*/
+  margin-bottom: 0.5rem;
+  color: #223467;
+  background-color: rgba(255, 0, 255, 0.3);
+  border-color: #000000;
+  border-style: solid;
+  border-width: 4px;
+  border-radius: 0.3rem;
+}
+  .btnn:hover {
+  color: #223467;
+  background-color: rgba(0, 255, 255, 0.2);
+  border-color: #000000; 
+}
+  .alink{
+  text-decoration:  none;
+}
+ table{
+ 	margin-bottom: 1rem;
+ }
+ table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 15px;
+}
+th {
+    text-align: left;
+}
+.sub{
+	margin-bottom: 0.5rem;
+	margin-top: 0.5rem; 
+	padding-left: 1rem;
+}
+div{
+	padding-left: 1rem;
+}
+.wrap{
+	text-align: center;
+	margin-bottom: 1rem;
+}
+textarea{
+	width: 100%;
+	min-height: 500px;
+}

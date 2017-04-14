@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+	<head>
+	<p id="demo"></p>
+	<meta charset="UTF-8">
+	<title>My Homepage</title>
+	<script type="text/javascript">
+    </script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="styles.css" media="screen">
+	</head>
+	<body>
+	<header>
+	<h1 class="myheader"> JS Things </h1>
+	</header>	
+	<h2 class="sub">1st thing:</h2>
+	<div class="wrap">
+	<script src="form1.js"></script>
+    <button type="button" onclick="increment()">Click Me!</button>
+    <h1 id="num"> 0 </h1>
+    </div>
+    <h2 class="sub">2nd thing:</h2>
+    <div class="wrap">
+    <form>
+      <script src="form2.js"></script>
+      Student Name:<br>
+      <input type="text" id="studentname" name="student"><br>
+      Area:<br>
+      <input type="text" id="areaname" name="area"><br>
+      Faculty name:<br>
+      <input type="text" id="facultyname" name="faculty"><br><br>
+      <button type="button"  onclick="displayOutput()">Submit</button>
+      <!-- <button type="button" onclick="incremen()">Click Me!</button> -->
+    </form> 
+    <h1 id="name"> 0 </h1>
+    <textarea id="textxml">
+    <interests>
+    <area category="computer">
+    	<faculty name="fac1">
+        <student>Eavadva addad</student>
+        <student>Bob Dylan</student>
+        </faculty>
+        <faculty name="fac2">
+        <student>svdav affa</student>
+        </faculty>
+    </area>
+    <area category="bio">
+    	<faculty name="fac3">
+    	<student>dafa cafsfd</student>
+    	</faculty>
+    </area>
+    </interests>
+    </textarea>
+    <p>XML schema</p>
+    <textarea>
+    <?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="interests">
+  <xs:complexType>
+   <xs:complexContent>      
+   	<xs:element name="area">
+     <xs:complexType>
+       <xs:complexContent>
+          <xs:element name="faculty">
+            <xs:complexType>
+              <xs:sequence>
+              	<xs:element name="student" type="xs:string"/>
+              </xs:sequence>
+            </xs:complexType>	
+          </xs:element>	
+       </xs:complexContent>	
+     </xs:complexType>	
+    </xs:element>
+   </xs:complexContent>
+  </xs:complexType>
+</xs:element>
+</xs:schema>
+</textarea>
+	</div>
+	<a href="index.html" class="alink"> <div class="btnn"> My Home </div></a>
+	</body>
+</html>
+<!--<script src="form2.js"></script>-->
